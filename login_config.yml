@@ -1,0 +1,18 @@
+credentials:
+  usernames:
+    manu:
+      email: manu@example.com
+      name: manu
+      city: Bangalore
+      area: Piriyapatna
+      role: Admin
+      password: '$2b$12$ByZbwxrcvCXVLQO4zjI95OteXToaBiwWDqujsHiKfeGzionz0VqAG'  # abc
+
+cookie:
+  expiry_days: 30
+  key: 'some_signature_key_here_change_this'
+  name: 'manu_police_app'
+
+preauthorized:
+  emails:
+    - manu@example.com
